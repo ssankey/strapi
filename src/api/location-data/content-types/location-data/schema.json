@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "location_datas",
+  "info": {
+    "singularName": "location-data",
+    "pluralName": "location-datas",
+    "displayName": "locationData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainLocation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sublocations": {
+      "displayName": "sublocation",
+      "type": "component",
+      "repeatable": true,
+      "component": "sublocation.sublocation"
+    },
+    "ThingsToDo": {
+      "displayName": "ThingsToDo",
+      "type": "component",
+      "repeatable": true,
+      "component": "thing-to-do.things-to-do"
+    },
+    "facts": {
+      "type": "blocks"
+    }
+  }
+}

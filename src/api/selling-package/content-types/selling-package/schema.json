@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "selling_packages",
+  "info": {
+    "singularName": "selling-package",
+    "pluralName": "selling-packages",
+    "displayName": "sellingPackage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

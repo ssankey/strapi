@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tour_packages",
+  "info": {
+    "singularName": "tour-package",
+    "pluralName": "tour-packages",
+    "displayName": "TourPackage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "packageName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "inclusions": {
+      "type": "blocks"
+    },
+    "title": {
+      "type": "string"
+    },
+    "itinerary": {
+      "displayName": "itinerary",
+      "type": "component",
+      "repeatable": true,
+      "component": "itinerary.itinerary"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "exclusion": {
+      "type": "blocks"
+    }
+  }
+}

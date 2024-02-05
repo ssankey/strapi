@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_thing_to_do_thing_to_dos",
+  "info": {
+    "displayName": "thingToDo"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

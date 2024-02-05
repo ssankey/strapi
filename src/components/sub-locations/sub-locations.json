@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sub_locations_sub_locations",
+  "info": {
+    "displayName": "subLocations"
+  },
+  "options": {},
+  "attributes": {
+    "sublocationName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
