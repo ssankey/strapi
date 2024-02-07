@@ -43,6 +43,12 @@
     },
     "facts": {
       "type": "blocks"
+    },
+    "locationFacts": {
+      "displayName": "Locationfact",
+      "type": "component",
+      "repeatable": true,
+      "component": "facts.locationfact"
     }
   }
 }

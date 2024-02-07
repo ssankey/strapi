@@ -799,6 +799,7 @@ export interface ApiLocationDataLocationData extends Schema.CollectionType {
     sublocations: Attribute.Component<'sublocation.sublocation', true>;
     ThingsToDo: Attribute.Component<'thing-to-do.things-to-do', true>;
     facts: Attribute.Blocks;
+    locationFacts: Attribute.Component<'facts.locationfact', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

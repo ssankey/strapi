@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_facts_locationfacts",
+  "info": {
+    "displayName": "Locationfact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fact1": {
+      "type": "text"
+    },
+    "fact2": {
+      "type": "text"
+    },
+    "fact3": {
+      "type": "text"
+    },
+    "fact4": {
+      "type": "text"
+    },
+    "fact5": {
+      "type": "text"
+    }
+  }
+}

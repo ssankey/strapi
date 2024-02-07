@@ -8,6 +8,21 @@ export interface FactsFacts extends Schema.Component {
   attributes: {};
 }
 
+export interface FactsLocationfact extends Schema.Component {
+  collectionName: 'components_facts_locationfacts';
+  info: {
+    displayName: 'Locationfact';
+    description: '';
+  };
+  attributes: {
+    fact1: Attribute.Text;
+    fact2: Attribute.Text;
+    fact3: Attribute.Text;
+    fact4: Attribute.Text;
+    fact5: Attribute.Text;
+  };
+}
+
 export interface ItineraryItinerary extends Schema.Component {
   collectionName: 'components_itinerary_itineraries';
   info: {
@@ -86,6 +101,7 @@ declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'facts.facts': FactsFacts;
+      'facts.locationfact': FactsLocationfact;
       'itinerary.itinerary': ItineraryItinerary;
       'sub-locations.sub-locations': SubLocationsSubLocations;
       'sublocation.sublocation': SublocationSublocation;
