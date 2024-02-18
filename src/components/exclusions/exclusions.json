@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_exclusions_exclusions",
+  "info": {
+    "displayName": "exclusions"
+  },
+  "options": {},
+  "attributes": {
+    "Airfare": {
+      "type": "text"
+    },
+    "PersonalExpenses": {
+      "type": "text"
+    },
+    "EntryFees": {
+      "type": "text"
+    },
+    "TravelInsurance": {
+      "type": "text"
+    }
+  }
+}

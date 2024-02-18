@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_inclusions_inclusions",
+  "info": {
+    "displayName": "inclusions"
+  },
+  "options": {},
+  "attributes": {
+    "Accommodation": {
+      "type": "text"
+    },
+    "Sightseeing": {
+      "type": "text"
+    },
+    "Transport": {
+      "type": "text"
+    },
+    "Guide": {
+      "type": "text"
+    }
+  }
+}

@@ -46,6 +46,18 @@
     },
     "exclusion": {
       "type": "blocks"
+    },
+    "inclusion": {
+      "displayName": "inclusions",
+      "type": "component",
+      "repeatable": true,
+      "component": "inclusions.inclusions"
+    },
+    "exclusions": {
+      "displayName": "exclusions",
+      "type": "component",
+      "repeatable": true,
+      "component": "exclusions.exclusions"
     }
   }
 }

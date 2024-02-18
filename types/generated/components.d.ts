@@ -1,5 +1,18 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
+export interface ExclusionsExclusions extends Schema.Component {
+  collectionName: 'components_exclusions_exclusions';
+  info: {
+    displayName: 'exclusions';
+  };
+  attributes: {
+    Airfare: Attribute.Text;
+    PersonalExpenses: Attribute.Text;
+    EntryFees: Attribute.Text;
+    TravelInsurance: Attribute.Text;
+  };
+}
+
 export interface FactsFacts extends Schema.Component {
   collectionName: 'components_facts_facts';
   info: {
@@ -20,6 +33,19 @@ export interface FactsLocationfact extends Schema.Component {
     fact3: Attribute.Text;
     fact4: Attribute.Text;
     fact5: Attribute.Text;
+  };
+}
+
+export interface InclusionsInclusions extends Schema.Component {
+  collectionName: 'components_inclusions_inclusions';
+  info: {
+    displayName: 'inclusions';
+  };
+  attributes: {
+    Accommodation: Attribute.Text;
+    Sightseeing: Attribute.Text;
+    Transport: Attribute.Text;
+    Guide: Attribute.Text;
   };
 }
 
@@ -100,8 +126,10 @@ export interface ThingsToDoThingsToDo extends Schema.Component {
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
+      'exclusions.exclusions': ExclusionsExclusions;
       'facts.facts': FactsFacts;
       'facts.locationfact': FactsLocationfact;
+      'inclusions.inclusions': InclusionsInclusions;
       'itinerary.itinerary': ItineraryItinerary;
       'sub-locations.sub-locations': SubLocationsSubLocations;
       'sublocation.sublocation': SublocationSublocation;

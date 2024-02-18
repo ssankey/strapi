@@ -870,6 +870,8 @@ export interface ApiTourPackageTourPackage extends Schema.CollectionType {
     itinerary: Attribute.Component<'itinerary.itinerary', true>;
     duration: Attribute.String;
     exclusion: Attribute.Blocks;
+    inclusion: Attribute.Component<'inclusions.inclusions', true>;
+    exclusions: Attribute.Component<'exclusions.exclusions', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
