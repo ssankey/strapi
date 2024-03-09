@@ -29,9 +29,6 @@
         "audios"
       ]
     },
-    "inclusions": {
-      "type": "blocks"
-    },
     "title": {
       "type": "string"
     },
@@ -43,9 +40,6 @@
     },
     "duration": {
       "type": "string"
-    },
-    "exclusion": {
-      "type": "blocks"
     },
     "inclusion": {
       "displayName": "inclusions",

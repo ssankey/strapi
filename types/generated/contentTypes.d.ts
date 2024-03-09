@@ -865,11 +865,9 @@ export interface ApiTourPackageTourPackage extends Schema.CollectionType {
     packageName: Attribute.String;
     description: Attribute.Text;
     image: Attribute.Media;
-    inclusions: Attribute.Blocks;
     title: Attribute.String;
     itinerary: Attribute.Component<'itinerary.itinerary', true>;
     duration: Attribute.String;
-    exclusion: Attribute.Blocks;
     inclusion: Attribute.Component<'inclusions.inclusions', true>;
     exclusions: Attribute.Component<'exclusions.exclusions', true>;
     createdAt: Attribute.DateTime;
